@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-BIG BOSS VOTING ZONE</title>
+
+    <style>
+        #LOGIN {
+            border: 3px solid;
+            width: 270px;
+            padding: 50px;
+            margin-top: 100px;
+            margin-left: 580px;
+            border-radius: 19px;
+            box-shadow: 0px 0px 22px;
+        }
+
+        body {
+            background-image: url(login.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .user {
+            font-size: large;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            color: white;
+            border-radius: 6px;
+            background-color: #0956fde1;
+            padding: 10px 10px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        a:hover {
+            background-color: rgb(248, 0, 0);
+            color: azure;
+        }
+
+        input{
+            padding: 4px 10px;
+            border: 2px solid ;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="LOGIN">
+        <h1 class="name"><ins>
+                <center>LOGIN/SIGN UP</center>
+            </ins></h1>
+        <div>
+            <form action="backend.php" method="post">
+                <div class="user"><br>
+                    <center><label for="username">USERNAME:</label>
+                        <input type="text" name="myuser" id="username" required autofocus>
+                    </center><br>
+                </div><br>
+                <div class="user">
+                    <center><label for="password">PASSWORD:</label>
+                        <input type="password" name="mypassword" id="password" required autofocus>
+                    </center>
+                </div><br>
+                <center><label for="save">Save Info:</label>
+                    <input type="checkbox" name="save" id="save">
+                </center><br><br>
+                <center><a href="/voting.html">LOGIN</a></center>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

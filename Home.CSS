@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    overflow-y: scroll;
+    background-image: url("a3-15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.BIGG{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: "poppins", Times, serif;
+    color: white;
+}
+
+.BOSS{
+    font-size: 2.5rem;
+    color: rgb(255, 250, 250);
+    font-weight: bolder;
+    font-family: "poppins", Times, serif;
+}
+
+.bar{
+    padding: 0.3125rem 0px;
+    background-color: #444b6e;
+}
+
+.bar ul .BIGGBOSS{
+    overflow: auto;
+    margin: 0px 5rem;
+}
+
+.bar ul .right{
+    overflow: auto;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    /* color: black; */
+}
+
+.bar li a:hover{
+    color: rgb(236, 1, 1);
+    text-decoration: underline;
+}
+
+.bar li{
+    float: right;
+    list-style: none;
+    margin: 0.925rem 1.562rem;
+}
+#main {
+    min-height: 100vh;
+    backdrop-filter: blur(0px) opacity(0.6);
+    background: #10092e98;
+}
+
+main .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Avish {
+    display: flex;
+    margin-bottom: 0.6rem;
+}
+
+#Avish section {
+    width: 50%;
+    padding: 2rem;
+}
+
+#Avish section * {
+    margin: 0.625rem;
+}
+
+.head1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+section a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    background-color: #0956fde1;
+    padding: 0.625rem;
+    transition: all 0.2s  ease-in-out;
+}
+
+section a:hover{
+    font-size: 1.8rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (orientation: portrait) {
+    section{
+        width: 100%;
+        text-wrap: nowrap;
+    }
+}
