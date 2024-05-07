@@ -1,1 +1,1 @@
-# bb-voting-zone
+The Bigg Boss Voting Zone is a dedicated platform where fans of the reality TV show "Bigg Boss" can participate in voting for their favorite contestants. This online system allows viewers to engage directly with the show's dynamics by influencing the fate of contestants through their votes.
