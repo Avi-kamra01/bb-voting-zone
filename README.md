@@ -1,1 +1,1 @@
-# bb-voting-zone
+# bigg boss voting zone
